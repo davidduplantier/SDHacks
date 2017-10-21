@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/davidduplantier/SDHacks/issues"
   },
-  "homepage": "https://github.com/davidduplantier/SDHacks#readme"
+  "homepage": "https://github.com/davidduplantier/SDHacks#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
