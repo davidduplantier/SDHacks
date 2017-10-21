@@ -1,0 +1,19 @@
+{
+  "name": "sdhacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidduplantier/SDHacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidduplantier/SDHacks/issues"
+  },
+  "homepage": "https://github.com/davidduplantier/SDHacks#readme"
+}
