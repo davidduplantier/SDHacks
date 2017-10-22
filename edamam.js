@@ -1,5 +1,5 @@
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 // prot_gen = 3 and BMI_gen = 4 M
 // prot_gen = 2 and BMI_gen = 4 M 
 // prot_gen = 2 and BMI_gen = 2 M 
@@ -19,7 +19,7 @@ const milk_gen = 4; // cant use
 const weight_gen = 4;
 const BMI_gen = 1;
 const gender = 'F';
-=======
+//=======
 
 
 
@@ -31,7 +31,7 @@ const milk_gen = 4;
 const weight_gen = 2;
 const BMI_gen = 3;
 const gender = 'M';
->>>>>>> b885e4e077a3b44732f80b97ad1b8b1fb0518841
+//>>>>>>> b885e4e077a3b44732f80b97ad1b8b1fb0518841
 
 
 const app_id = 'c24b40fa';
