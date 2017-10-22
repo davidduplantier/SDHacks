@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "publish": "scp -r dist/* 50.116.77.146:/home/keviny8/public_html/sdhacks",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
