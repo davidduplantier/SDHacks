@@ -79,6 +79,14 @@ const panc_gen = 0;
 }
 
 function buildReportUrl3() {
+
+const prot_gen = 2;
+const carb_gen = 2;
+const BMI_gen = 2;
+const gender = 'M';
+const pea_gen = 4;
+const panc_gen = 0;
+
   var reportUrl = `https://api.edamam.com/search?q=${q}&app_id=${app_id}&app_key=${app_key}&from=0&to=${end}&calories=${cal_less}`;
   if (prot_gen < 2){
     reportUrl += '&diet=high-protein';
@@ -349,6 +357,12 @@ function getDiet2(reportUrlIn) {
 
 function getDiet3(reportUrlIn) {
 
+  const prot_gen = 2;
+  const carb_gen = 2;
+  const BMI_gen = 2;
+  const gender = 'M';
+  const pea_gen = 4;
+  const panc_gen = 0;
   const options = { };
 
   var EventEmitter = require("events").EventEmitter;
