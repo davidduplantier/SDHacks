@@ -5,6 +5,7 @@ const options = { };
 $(document).ready( function() {
   $(user1).click( function() {
     console.log("TestUser1 was pressed")
+    console.log(body.data)
   })
 
   $(user2).click( function() {
@@ -16,14 +17,24 @@ $(document).ready( function() {
   })
 })
 
+const prot_gen = 3;
+const carb_gen = 1;
+const egg_gen = 2;
+const pea_gen = 4;
+const milk_gen = 4;
+const weight_gen = 2;
+const BMI_gen = 1;
+
+
+
 //const name = 'eye-color';
 //const population = 'european';
 const app_id = '27200788';
 const app_key = 'f5ce0c94cd19f837b8c1eb45ba63456a';
 const end = 3;
 const q = "chicken";
-//const diet;
-//const health;
+const diet = ["balanced", "high-protein", "high-fiber", "low-fat", "low-carb", "low-sodium"];
+const health = ["peanut-free", "dairy-free", "egg-free", "low-sugar"];
 //const calories;
 const reportUrl = `https://api.edamam.com/search?q=${q}&app_id=${app_id}&app_key=${app_key}&from=0&to=${end}`;
 var EventEmitter = require("events").EventEmitter;
@@ -79,7 +90,17 @@ request.get(reportUrl, options, function (error, response, data) {
 
 //How you access the FINAL FILTERED RECIPE LIST
 body.on('update', function () {
-    console.log(body.data)
+  let numFoods = body.data.length
+  i = 0
+  for (; i < numFoods; i++ ) {
+    $(`#pic${i}`).attr("src", body.data[i].image)
+    $(`#title${i}`).html(body.data[i].name)
+    $(`#link${i}`).attr("href", body.data[i].url)
+  }
+  for (; i < 8; i++ ) {
+    $(`#img${i}`).hide()
+  }
+  console.log(body.data)
 });
 
 },{"events":253,"request":114}],2:[function(require,module,exports){

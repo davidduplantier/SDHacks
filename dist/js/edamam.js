@@ -14,8 +14,6 @@ $(document).ready( function() {
   $(user3).click( function() {
     console.log("TestUser3 was pressed")
   })
-
-  console.log("################")
 })
 
 const prot_gen = 3;
@@ -26,10 +24,6 @@ const milk_gen = 4;
 const weight_gen = 2;
 const BMI_gen = 1;
 
-
-
-const request = require('request');
-const options = { };
 
 
 //const name = 'eye-color';
@@ -95,9 +89,15 @@ request.get(reportUrl, options, function (error, response, data) {
 
 //How you access the FINAL FILTERED RECIPE LIST
 body.on('update', function () {
-    //console.log(body.data)
-    //console.log(body.data[0].image)
-    /*$("#pic1").attr({
-      src: body.data[0].image
-    })*/
+  let numFoods = body.data.length
+  i = 0
+  for (; i < numFoods; i++ ) {
+    $(`#pic${i}`).attr("src", body.data[i].image)
+    $(`#title${i}`).html(body.data[i].name)
+    $(`#link${i}`).attr("href", body.data[i].url)
+  }
+  for (; i < 8; i++ ) {
+    $(`#img${i}`).hide()
+  }
+  console.log(body.data)
 });
