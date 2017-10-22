@@ -1,9 +1,19 @@
-
-
-
-
 const request = require('request');
 const options = { };
+
+$(document).ready( function() {
+  $(user1).click( function() {
+    console.log("TestUser1 was pressed")
+  })
+
+  $(user2).click( function() {
+    console.log("TestUser2 was pressed")
+  })
+
+  $(user3).click( function() {
+    console.log("TestUser3 was pressed")
+  })
+})
 
 //const name = 'eye-color';
 //const population = 'european';
@@ -19,7 +29,7 @@ var EventEmitter = require("events").EventEmitter;
 var body = new EventEmitter();
 
 
-request.get(reportUrl, options, function (error, response, data) { 
+request.get(reportUrl, options, function (error, response, data) {
     var fin_recipes = [];
     var parsedJSON= JSON.parse(data);
 
@@ -58,7 +68,7 @@ request.get(reportUrl, options, function (error, response, data) {
         calories: calories, protein: protein, carbs: carbs, ingredients: ingredients });
 
 
-      
+
     }
 
     body.data = fin_recipes;
@@ -68,9 +78,5 @@ request.get(reportUrl, options, function (error, response, data) {
 
 //How you access the FINAL FILTERED RECIPE LIST
 body.on('update', function () {
-    console.log(body.data) 
+    console.log(body.data)
 });
-
-
-
-
