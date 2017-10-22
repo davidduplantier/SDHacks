@@ -1,12 +1,10 @@
-[{"MALE": {"protein": {0: "69 - 84" , 1: ">84", 2: "53-69" , 3: "< 38", 4: "38 - 53"},
-"carb" : {0: "350- 434" , 1: ">434" , 2: "266 - 350", 3: "< 200", 4: "200 - 266"},
-"BMI": {0: "balanced", 1: "balanced" , 2: "balanced", 3: "low-fat", 4: "low-carb"},
-"egg": {0: "slight risk of egg intolerance", 1: "slight risk of egg intolerance", 2: "moderate risk of egg intolerance", 3: "severely at risk of egg intolerance", 4: "severely at risk of egg intolerance"},
-"milk": {0: "slightly at risk of milk intolerance", 1: "slightly at risk of milk intolerance", 2: "moderately at risk of milk intolerance", 3: "severely at risk of milk intolerance", 4: "severely at risk of milk intolerance"},
-"peanut": {0: "slightly at risk of peanut intolerance", 1: "slightly at risk of peanut intolerance", 2: "moderately at risk of peanut intolerance", 3: "severely at risk of peanut intolerance", 4: "severely at risk of peanut intolerance"}}
-"FEMALE": {"protein": {0: "54-69", 1: ">69", 2: "39-54", 3: "<24",4: "24 - 39"},
-"carb": {0: "293-359", 1: ">359", 2: "227-293", 3: "<143", 4: "143-227"},
-"BMI": {0: "balanced", 1: "balanced", 2: "balanced", 3: "low-fat", 4: "low-carb"},
-"egg": {0: "slight risk of egg intolerance", 1: "slight risk of egg intolerance", 2: "moderate risk of egg intolerance", 3: "severely at risk of egg intolerance", 4: "severely at risk of egg intolerance"},
-"milk": {0: "slightly at risk of milk intolerance", 1: "slightly at risk of milk intolerance", 2: "moderately at risk of milk intolerance", 3: "severely at risk of milk intolerance", 4: "severely at risk of milk intolerance"},
-"peanut": {0: "slightly at risk of peanut intolerance", 1: "slightly at risk of peanut intolerance", 2: "moderately at risk of peanut intolerance", 3: "severely at risk of peanut intolerance", 4: "severely at risk of peanut intolerance"}}}]
+[{"MALE": {"protein": {"0": "67-200" , "1": "60-67", "2": "53-60" , "3": "45-53", "4": "0-45"},
+"carb" : {"0": "400-800" , "1": "350-400" , "2": "266-350", "3": "200-266", "4": "0-200"},
+"BMI": {"0": "balanced", "1": "balanced" , "2": "balanced", "3": "low-fat", "4": "low-fat"},
+ut": {"0": "slightly at risk of peanut intolerance", "1": "slightly at risk of peanut intolerance", "2": "moderately at risk of peanut intolerance", "3": "severely at risk of peanut intolerance", "4": "severely at risk of peanut intolerance"}},
+"FEMALE": {"protein": {"0": "53-200", "1": "45-53", "2": "39-45", "3": "34-39","4": "0-34"},
+"carb": {"0": "320-600", "1": "293-320", "2": "227-293", "3": "143-227", "4": "0-143"},
+"BMI": {"0": "balanced", "1": "balanced", "2": "balanced", "3": "low-fat", "4": "low-fat"},
+"egg": {"0": "slight risk of egg intolerance", "1": "slight risk of egg intolerance", "2": "moderate risk of egg intolerance", "3": "severely at risk of egg intolerance", "4": "severely at risk of egg intolerance"},
+"milk": {"0": "slightly at risk of milk intolerance", "1": "slightly at risk of milk intolerance", "2": "moderately at risk of milk intolerance", "3": "severely at risk of milk intolerance", "4": "severely at risk of milk intolerance"},
+"peanut": {"0": "slightly at risk of peanut intolerance", "1": "slightly at risk of peanut intolerance", "2": "moderately at risk of peanut intolerance", "3": "severely at risk of peanut intolerance", "4": "severely at risk of peanut intolerance"}}}]

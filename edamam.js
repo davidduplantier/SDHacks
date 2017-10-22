@@ -1,4 +1,25 @@
 
+<<<<<<< HEAD
+// prot_gen = 3 and BMI_gen = 4 M
+// prot_gen = 2 and BMI_gen = 4 M 
+// prot_gen = 2 and BMI_gen = 2 M 
+
+// prot_gen = 2 and BMI_gen = 2 F
+// prot_gen = 0 and carb_gen = 4 and BMI_gen = 2 F
+// prot_gen = 3 and carb_gen = 3 and BMI_gen = 1 F
+
+
+
+
+const prot_gen = 3;
+const carb_gen = 3;
+const egg_gen = 2; // cant use
+const pea_gen = 2;
+const milk_gen = 4; // cant use
+const weight_gen = 4;
+const BMI_gen = 1;
+const gender = 'F';
+=======
 
 
 
@@ -10,6 +31,7 @@ const milk_gen = 4;
 const weight_gen = 2;
 const BMI_gen = 3;
 const gender = 'M';
+>>>>>>> b885e4e077a3b44732f80b97ad1b8b1fb0518841
 
 
 const app_id = 'c24b40fa';
