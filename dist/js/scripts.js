@@ -54,14 +54,13 @@ function buildReportUrl1() {
 }
 
 function buildReportUrl2() {
-  const prot_gen = 0;
-  const carb_gen = 1;
-  const egg_gen = 1;
-  const pea_gen = 3;
-  const milk_gen = 0;
-  const weight_gen = 2;
-  const BMI_gen = 2;
-  const gender = 'M';
+const prot_gen = 0;
+const carb_gen = 4;
+const BMI_gen = 2;
+const gender = 'F';
+const pea_gen = 3;
+const panc_gen = 0;
+
   var reportUrl = `https://api.edamam.com/search?q=${q}&app_id=${app_id}&app_key=${app_key}&from=0&to=${end}&calories=${cal_less}`;
   if (prot_gen < 2){
     reportUrl += '&diet=high-protein';
@@ -229,14 +228,20 @@ function getDiet2(reportUrlIn) {
 
       console.log("HELLO");
 
-      const prot_gen = 0;
+      /*const prot_gen = 3;
       const carb_gen = 1;
       const egg_gen = 1;
       const pea_gen = 3;
-      const milk_gen = 0;
+      const milk_gen = 3;
       const weight_gen = 2;
       const BMI_gen = 2;
-      const gender = 'M';
+      const gender = 'M';*/
+      const prot_gen = 0;
+      const carb_gen = 4;
+      const BMI_gen = 2;
+      const gender = 'F';
+      const pea_gen = 3;
+      const panc_gen = 0;
       var arr = {"M": {"protein": [[40,200] , [27,40], [15,27] , [8,16], [0,10]],
         "carb" : [[80,400] , [60,90] , [40,70], [15,40], [0,15]]},
         "F": {"protein": [[30,200] , [20,29], [14,23], [8,14], [0,8]],
@@ -319,6 +324,7 @@ function getDiet2(reportUrlIn) {
   //How you access the FINAL FILTERED RECIPE LIST
   body.on('update', function () {
     let numFoods = body.data.length
+    console.log(numFoods)
     i = 0
     for (; i < numFoods; i++ ) {
       console.log("###################")
