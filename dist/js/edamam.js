@@ -10,10 +10,26 @@ $(document).ready( function() {
     console.log("TestUser2 was pressed")
   })
 
+<<<<<<< HEAD:edamam.js
+
+const prot_gen = 3;
+const carb_gen = 1;
+const egg_gen = 2;
+const pea_gen = 4;
+const milk_gen = 4;
+const weight_gen = 2;
+const BMI_gen = 1;
+
+
+
+const request = require('request');
+const options = { };
+=======
   $(user3).click( function() {
     console.log("TestUser3 was pressed")
   })
 })
+>>>>>>> 3096a65d9948adaac32eb1a1e158fc4ae72e189d:dist/js/edamam.js
 
 //const name = 'eye-color';
 //const population = 'european';
