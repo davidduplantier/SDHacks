@@ -1,0 +1,17 @@
+,0,1,2,3,4
+MALE,,,,,
+protein,69g - 84g,>84g,53g-69g,< 38 g,38g - 53g
+carb,350g- 434g,>434g,266g - 350g,< 200 g,200g - 266g
+weight,,,,,
+BMI,balanced,balanced,balanced,low fat,low carb
+egg,slight risk of egg intolerance,slight risk of egg intolerance,moderate risk of egg intolerance,severely at risk of egg intolerance,severely at risk of egg intolerance
+milk,slightly at risk of milk intolerance,slightly at risk of milk intolerance,moderately at risk of milk intolerance,severely at risk of milk intolerance,severely at risk of milk intolerance
+peanut,slightly at risk of peanut intolerance,slightly at risk of peanut intolerance,moderately at risk of peanut intolerance,severely at risk of peanut intolerance,severely at risk of peanut intolerance
+FEMALE,,,,,
+protein,54g-69g,>69g,39g-54g,24 g,24g - 39g
+carb,293g-359g,>359g,227g-293g,<143g,143g-227g
+weight,,,,,
+BMI,balanced,balanced,balanced,low fat,low carb
+egg,slight risk of egg intolerance,slight risk of egg intolerance,moderate risk of egg intolerance,severely at risk of egg intolerance,severely at risk of egg intolerance
+milk,slightly at risk of milk intolerance,slightly at risk of milk intolerance,moderately at risk of milk intolerance,severely at risk of milk intolerance,severely at risk of milk intolerance
+peanut,slightly at risk of peanut intolerance,slightly at risk of peanut intolerance,moderately at risk of peanut intolerance,severely at risk of peanut intolerance,severely at risk of peanut intolerance
