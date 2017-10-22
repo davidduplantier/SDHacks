@@ -4,13 +4,19 @@ const options = { };
 $(document).ready( function() {
   $(user1).click( function() {
     console.log("TestUser1 was pressed")
+    console.log(body.data)
   })
 
   $(user2).click( function() {
     console.log("TestUser2 was pressed")
   })
 
-<<<<<<< HEAD:edamam.js
+  $(user3).click( function() {
+    console.log("TestUser3 was pressed")
+  })
+
+  console.log("################")
+})
 
 const prot_gen = 3;
 const carb_gen = 1;
@@ -24,12 +30,7 @@ const BMI_gen = 1;
 
 const request = require('request');
 const options = { };
-=======
-  $(user3).click( function() {
-    console.log("TestUser3 was pressed")
-  })
-})
->>>>>>> 3096a65d9948adaac32eb1a1e158fc4ae72e189d:dist/js/edamam.js
+
 
 //const name = 'eye-color';
 //const population = 'european';
@@ -94,5 +95,9 @@ request.get(reportUrl, options, function (error, response, data) {
 
 //How you access the FINAL FILTERED RECIPE LIST
 body.on('update', function () {
-    console.log(body.data)
+    //console.log(body.data)
+    //console.log(body.data[0].image)
+    /*$("#pic1").attr({
+      src: body.data[0].image
+    })*/
 });
