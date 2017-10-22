@@ -2,6 +2,16 @@
 
 
 
+const prot_gen = 3;
+const carb_gen = 1;
+const egg_gen = 2;
+const pea_gen = 4;
+const milk_gen = 4;
+const weight_gen = 2;
+const BMI_gen = 1;
+
+
+
 const request = require('request');
 const options = { };
 
